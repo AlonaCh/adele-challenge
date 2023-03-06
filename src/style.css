@@ -33,11 +33,12 @@ img {
   max-width: 70%;
   display: inline-block;
 }
-a {
+a:hover {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
-i:before {
+i:hover {
   -webkit-font-smoothing: antialiased;
   position: relative;
   left: -100px;
