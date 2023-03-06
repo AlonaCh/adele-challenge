@@ -10,6 +10,9 @@ body {
   background-attachment: fixed;
   margin: 10px 0 auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 .btn-group button {
   color: #a2a8d3;
   cursor: pointer;
@@ -27,8 +30,16 @@ body {
 }
 img {
   border-radius: 10px;
+  max-width: 70%;
+  display: inline-block;
 }
 a {
   text-decoration: none;
   color: black;
+}
+i:before {
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  left: -100px;
+  color: red;
 }
