@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid px-5">
       <header>
         <div class="btn-group">
           <button id="about">About</button>
@@ -35,11 +35,13 @@
       </header>
       <div class="row">
         <div class="col-4">
+          <div class="info">
           <h1>Adele</h1>
-          <p class="info">
+          <p>
             "Please wear the face, the one where you smile, because you lighten
             up my heart when I start to cry." — <em>Adele, "First Love"</em>
           </p>
+          </div>
         </div>
         <div class="col-8 shadow">
           <img src="images/adele.png" alt="Adele" />
@@ -60,32 +62,54 @@
           >Read more &#x2192;</a
         ></em
       >
-      <div id="listen">
-        <h1>Listen to top songs</h1>
-        <p>Oh My God</p>
-        <a
+      <h1>Listen to top songs</h1>
+     <div id="listen" class="container">
+        <div class="row">
+          <div class="col-4">
+      
+        <h5> <a
+          href="https://www.youtube.com/watch?v=niG3YMU6jFk"
+          target="_blank"
+          class=""
+        >Oh My God</a></h5>
+    
+         <a
           href="https://www.youtube.com/watch?v=niG3YMU6jFk"
           target="_blank"
           class=""
         >
-          <img class="video" src="images/AdeleGod.jpeg" alt="Oh My God"/>
-          <i class="play fa fa-play" aria-hidden="true"></i>
-        </a>
-        <p>Easy On Me</p>
+        <img class="video" src="images/AdeleGod.jpeg" alt="Oh My God"/>
+          
+         </a>
+           
+           </div>
+        
+       <div class="col-4">
+        <h5><a
+          href="https://www.youtube.com/watch?v=U3ASj1L6_sY"
+          target="_blank"
+          class="">Easy On Me</a></h5>
         <a
           href="https://www.youtube.com/watch?v=U3ASj1L6_sY"
           target="_blank"
           class="">
           <img class="video" src="images/Easy.jpeg" alt="Easy On Me"/>
-          <i class="play fa fa-play" aria-hidden="true"></i>
+         
           </a>
-          <p>Hello</p>
+          </div>
+          <div class="col-4">
+          <h5>   <a
+          href="https://www.youtube.com/watch?v=YQHsXMglC9A"
+          target="_blank"
+          class="">Hello</a></h5>
         <a
           href="https://www.youtube.com/watch?v=YQHsXMglC9A"
           target="_blank"
           class="">
-          <img class="video" src="images/Easy.jpeg" alt="Hello"/>
-          <i class="play fa fa-play" aria-hidden="true"></i>
+          <img class="video" src="images/Hello.jpeg" alt="Hello"/>
+     
+          </div>
+          </div>
       </div>
     </div>
     <script src="src/app.js"></script>
