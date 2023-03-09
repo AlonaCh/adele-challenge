@@ -11,3 +11,10 @@ button.addEventListener("click", () => {
   var section = document.querySelector("#listen");
   section.scrollIntoView({ behavior: "smooth" });
 });
+
+var button = document.querySelector("#facts");
+
+button.addEventListener("click", () => {
+  var section = document.querySelector("#interesting");
+  section.scrollIntoView({ behavior: "smooth" });
+});
