@@ -21,6 +21,8 @@
   <body>
     <div class="container-fluid px-5">
       <header>
+
+        <div class="btn-group-container">
         <div class="shadow-sm p-1 mb-2 mt-2 bg-body-tertiary">
           <div class="btn-group">
             <button id="about">About</button>
@@ -35,24 +37,22 @@
             <button id="facts">Interesting facts</button>
           </div>
         </div>
+        </div>
       </header>
-      <div class="row">
-        <div class="col-4">
-          <div class="info">
-            <h1>Adele</h1>
-            <p>
-              "Please wear the face, the one where you smile, because you
-              lighten up my heart when I start to cry." —
+     
+          <div class="box shadow">
+            <div class="foto">
+<img src="images/Adele22.jpg" alt="Adele" />
+            </div>
+            <div class="text"><p>
+              "Please wear the face, the one where you smile,
+              <br /> because you
+              lighten up my heart when I start to cry." 
+              <br />—
               <em>Adele, "First Love"</em>
-            </p>
+            </p></div>
           </div>
-        </div>
-        <div class="col-8">
-          <div class="foto">
-            <img src="images/Adeleff.jpg" alt="Adele" />
-          </div>
-        </div>
-      </div>
+    
       <p id="biografy" class="biografy">
         <strong>ABOUT ADELE</strong>
 
@@ -65,7 +65,7 @@
         of albums worldwide and won a total of 15 Grammys as well as an Oscar.
         <br />
         <em>
-          <a href="https://www.biography.com/musicians/adele" target="_blank"
+          <a href="https://www.biography.com/musicians/adele" class="read-more" target="_blank"
             >Read more &#x2192;</a
           ></em
         >
@@ -89,7 +89,7 @@
               target="_blank"
               class=""
             >
-              <img class="video" src="images/AdeleGod.jpeg" alt="Oh My God" />
+              <img class="video" src="images/Adele17.jpeg" alt="Oh My God" />
             </a>
           </div>
 
@@ -129,6 +129,8 @@
           </div>
         </div>
       </div>
+
+      <button class="shadow-sm p-1 mb-2 mt-2 bg-body-tertiary">Listen more</button>
 
       <div class="card-container" id="interesting">
         <div class="card text-center shadow">
@@ -245,10 +247,11 @@
           <i class="fa-brands fa-spotify"></i>
         </div>
       </div>
-    </div>
     <div class="learn">
     <a href = "https://github.com/AlonaCh/My-weather-app.git" target="_blanket" ><em>My GitHub repository</em></a>
     </div>
+    </div>
+    
     <script src="src/app.js"></script>
   </body>
 </html>
