@@ -1,7 +1,6 @@
 body {
   height: 100%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "PT Mono", monospace;
   background: #efeeff;
   background: radial-gradient(
     circle at 18.7% 37.8%,
@@ -64,8 +63,10 @@ a:hover {
   color: grey;
   cursor: pointer;
 }
-.follow {
+h1,
+h2 {
   text-align: center;
+  font-family: "Merienda", cursive;
 }
 
 .info {
@@ -79,14 +80,40 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+.biografy .biografy-short {
+  margin-bottom: 5px;
+}
+.read-more a {
+  text-align: left;
+}
 
 h5 {
   text-decoration: none;
   display: block;
   text-align: center;
   margin-bottom: 20px;
-  margin-right: 100px;
+  margin-left: 55px;
   margin-top: 20px;
+}
+.listen {
+  text-align: center;
+  font-weight: 600px;
+  font-style: oblique;
+}
+.video {
+  width: 230px;
+  height: 230px;
+  border-bottom-style: groove;
+  color: red;
+  object-fit: cover;
+  border-radius: 70px;
+  margin-left: 40px;
+  box-shadow: 5px 8px #888888;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 .top:hover {
@@ -102,18 +129,7 @@ h5 {
   margin-bottom: 40px;
   text-align: center;
 }
-.listen {
-  font-weight: 600px;
-  font-style: italic;
-}
-.video {
-  max-width: 70%;
-  border-bottom-style: groove;
-  color: red;
-  display: block;
-  object-fit: cover;
-  border-radius: 80px;
-}
+
 .card-img-top {
   box-shadow: 4px 4px 4px #4d4d4e;
   width: 100%;
@@ -149,11 +165,25 @@ h5 {
 }
 .follow {
   margin: 30px 10px;
+  text-align: center;
 }
 i {
   font-size: 32px;
   margin: 5px 5px;
   color: aquamarine;
+}
+.btn {
+  text-align: center;
+  color: gray;
+  background-color: white;
+  display: block;
+  margin: 40px auto;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #a2a8d3;
+  color: aliceblue;
 }
 .learn {
   text-align: center;
